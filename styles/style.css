@@ -87,7 +87,7 @@
 /* начало секции description*/
 .description{
   display: flex;
-  padding: 100px 0;
+  padding-top: 100px;
   justify-content: center;
 }
 .flex-row{

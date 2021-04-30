@@ -131,7 +131,7 @@
  font-weight: bold;
 }
 /* микс для заголовка*/
-.digits__section-title_space{
+.digits__section-title{
   margin-top: 100px;
   margin-bottom: 20px;
 }
@@ -243,7 +243,7 @@
  color: white;
 }
 /*микс для отступа заголовка*/
-.kaufman__section-title_space{
+.kaufman__section-title{
  margin-top: 90px;
  margin-bottom: 20px;
 }

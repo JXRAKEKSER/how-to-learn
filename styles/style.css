@@ -8,20 +8,20 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.header {
+/*.header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
   display: flex;
-  /* выше установили ограничения для секции */
-}
+  /* выше установили ограничения для секции 
+}*/
 /*внутренности header'a*/
-.logo {
+/*.logo {
  width: 183px;
  height: 32px;
-}
-.logo_place_header{
+}*/
+/*.logo_place_header{
   position: absolute;
   background-image: url("../images/logo_place_header.svg");
   background-repeat: no-repeat;
@@ -29,9 +29,9 @@
   background-size: contain;
   left: 64px;
   top: 30px;
-}
+}*/
 
-.header__title{
+/* .header__title{
  max-width: 730px;
  margin:0px 0px 0px 64px;
  align-self: center;
@@ -39,9 +39,9 @@
  line-height: 96px;
  font-size: 102px;
  font-weight: bold;
-}
+} */
 
-.header__subtitle{
+/* .header__subtitle{
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -51,15 +51,15 @@
   font-weight: normal;
   margin: 0;
   z-index: 2;
-}
-.header__link{
+} */
+/* .header__link{
   text-decoration: none;
   color: #2f80ed;
 }
 .header__link:hover{
   color: green;
-}
-.header__main-illustration{
+} */
+/* .header__main-illustration{
   width: 765px;
   height: 608px;
   position: absolute;
@@ -67,44 +67,44 @@
   bottom: 0px;
   z-index: 1;
   object-fit: cover;
-}
+} */
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+/* .header__square-pic {
   height: 568px;
   width: 568px;
   position: absolute;
   top: 64px;
   right: 0px;
   background-color: #2f80ed;
-}
+} */
 /* начало секции description*/
-.description{
+/* .description{
   display: flex;
   padding-top: 100px;
   justify-content: center;
-}
-.two-columns{
+} */
+/* .two-columns{
   width: 80%;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-}
-.two-columns__brief{
+} */
+/* .two-columns__brief{
   max-width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
-}
+} */
 
-.two-columns__main-text{
+/* .two-columns__main-text{
  width: 80%;
  min-width: 784px;
  display: flex;
  flex-direction: column;
-}
-.two-columns__paragraph{
+} */
+/* .two-columns__paragraph{
   line-height: 32px;
   font-size: 24px;
   font-weight: normal;
@@ -112,10 +112,10 @@
 }
 .two-columns__paragraph:last-of-type{
   margin-bottom: 0px;
-}
-.two-columns__span-accent{
+} */
+/* .two-columns__span-accent{
   font-weight: bold;
-}
+} */
 /* стили секции digits*/
 .digits{
   display: flex;
@@ -302,12 +302,12 @@
   justify-content: space-between;
   flex-basis: 711px;
 }
-.logo_place_footer{
+/*.logo_place_footer{
   background-image: url("../images/logo_place_footer.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
+}*/
 .footer__author{
   margin: 18px 0;
   color: white;

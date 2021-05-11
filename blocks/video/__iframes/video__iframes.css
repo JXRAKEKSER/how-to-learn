@@ -1,12 +1,9 @@
 .video__iframes{
-    width: 515px;
-    height: 316px;
-    /*position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    position: relative;
     bottom: -60px;
-    right: auto;*/
-    margin-right: 20px;
-}
-
-.video__iframes:last-of-type{
-    margin-right: 0;
+    right: auto;
+    margin-top: -60px;
 }
